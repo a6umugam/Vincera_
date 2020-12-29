@@ -35,6 +35,7 @@
 </template>
 
 <script>
+import Contactus from '~/pages/Contactus.vue';
 export default {
   data:()=>({
     activeItem: 0
@@ -44,9 +45,12 @@ export default {
 <style>
 .navbar-brand{
   font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS';
 }
 .bg-light{
-  background-color: white !important;
+  background-color: lightsteelblue !important;
+  /* background-color: white !important; */
 }
 .nav-item{
   padding: 0 15px !important;
