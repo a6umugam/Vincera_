@@ -13,23 +13,59 @@
 
         <form method="POST" class="mt-5">
           <div class="form-group wow fadeInUp">
-            <label for="name" class="fw-medium fg-grey">Fullname</label>
-            <input type="text" class="form-control" id="name">
+            <div class="mt-4">
+                <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></label>
+                <a  class="infoalign" href="https://www.facebook.com/stridersmiles.001">facebook.com/stridersmiles</a>
+            </div>
+            <!-- <label for="name" class="fw-medium fg-grey">Fullname</label>
+            <input type="text" class="form-control" id="name"> -->
           </div>
 
           <div class="form-group wow fadeInUp">
-            <label for="email" class="fw-medium fg-grey">Email</label>
-            <input type="text" class="form-control" id="email">
+            <!-- <label for="email" class="fw-medium fg-grey">Email</label>
+            <input type="text" class="form-control" id="email"> -->
+            <div class="mt-4">
+                <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></label>
+                <a class="infoalign" href="https://twitter.com/StridersIn">twitter.com/StridersIn</a>
+            </div>
           </div>
 
           <div class="form-group wow fadeInUp">
-            <label for="message" class="fw-medium fg-grey">Message</label>
-            <textarea rows="6" class="form-control" id="message"></textarea>
+            <!-- <label for="message" class="fw-medium fg-grey">Message</label>
+            <textarea rows="6" class="form-control" id="message"></textarea> -->
+            <div class="mt-4">
+                <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></label>
+                <a class="infoalign" href="https://www.instagram.com/stridersmiles/">instagram.com/stridersmiles</a>
+            </div>
+          </div>
+          <div class="form-group wow fadeInUp">
+            <!-- <label for="message" class="fw-medium fg-grey">Message</label>
+            <textarea rows="6" class="form-control" id="message"></textarea> -->
+            <div class="mt-4">
+                <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-flickr"></span></label>
+                <a class="infoalign" href="https://www.flickr.com/photos/stridersmiles/">flickr.com/stridersmiles</a>
+            </div>
+          </div>
+          <div class="form-group wow fadeInUp">
+            <!-- <label for="message" class="fw-medium fg-grey">Message</label>
+            <textarea rows="6" class="form-control" id="message"></textarea> -->
+            <div class="mt-4">
+                <label class="btn btn-fab btn-primary fg-white"><span class="mai-mail"></span></label>
+                <label class="infoalign">info@striders.in</label>
+            </div>
+          </div>
+          <div class="form-group wow fadeInUp">
+            <!-- <label for="message" class="fw-medium fg-grey">Message</label>
+            <textarea rows="6" class="form-control" id="message"></textarea> -->
+            <div class="mt-4">
+                <label class="btn btn-fab btn-primary fg-white"><span class="mai-call"></span></label>
+                <label class="infoalign">022-24112108, +91 91370 21596</label>
+            </div>
           </div>
 
-          <div class="form-group mt-4 wow fadeInUp">
+          <!-- <div class="form-group mt-4 wow fadeInUp">
             <button type="submit" class="btn btn-primary">Send Message</button>
-          </div>
+          </div> -->
         </form>
       </div>
     </div>
@@ -44,5 +80,13 @@ export default {
 </script>
 
 <style>
-
+@import url('../assets/css/maicons.css');
+@import url('../assets/css/mobster.css');
+.infoalign{
+    padding: 0 2vw;
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
 </style>

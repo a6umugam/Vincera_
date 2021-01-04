@@ -2,16 +2,19 @@
     <div>
         <div class="row">
             <div class="column">
-                <img src="~/assets/clients/alter_sport.png" style="width:50%" class="hover-shadow cursor">
+                <img src="~/assets/img/clients/tata_consultancy_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img src="~/assets/clients/cleaning_service.png" style="width:50%" class="hover-shadow cursor">
+                <img src="~/assets/img/clients/edelweiss_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img src="~/assets/clients/creative_photo.png" style="width:50%" class="hover-shadow cursor">
+                <img src="~/assets/img/clients/evonik_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
             <div class="column">
-                <img src="~/assets/clients/global_tv.png" style="width:50%" class="hover-shadow cursor">
+                <img src="~/assets/img/clients/ghatkopar_jolly_jimkhana.jpg" style="width:100%" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="~/assets/img/clients/NSC_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
         </div>
     </div>
