@@ -303,6 +303,7 @@ h2, h6{
 @media only screen and (max-width: 800px) {
     .infobar{
         display: none;
+        /* display: inline; */
     }
     .new-only-text{
     padding: 5px 50px;
