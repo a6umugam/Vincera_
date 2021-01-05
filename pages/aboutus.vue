@@ -1,9 +1,9 @@
 <template>
   <div class="main">
-    <div class="infobar">
+    <!-- <div class="infobar">
         <h5>Important notification</h5>
         <p>50% off for new customers</p>
-    </div>
+    </div> -->
     <Navbar/>
     <img class="image" v-for="(image, i) in images" :src="image" :key="i" @click="index = i">
     <!-- <vue-gallery-slideshow :images="images" :index="index" @close="index = null"></vue-gallery-slideshow> -->

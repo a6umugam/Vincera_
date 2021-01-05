@@ -1,9 +1,9 @@
 <template>
 <div class="main">
-    <div class="infobar">
+    <!-- <div class="infobar">
         <h5>Important notification</h5>
         <p>50% off for new customers</p>
-    </div>
+    </div> -->
     <Navbar/>
     <div class="container new-container bg-image">
         <Contact/>

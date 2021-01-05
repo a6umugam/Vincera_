@@ -57,7 +57,7 @@ export default {
 .navbar-brand{
   font-size: 30px;
   font-weight: bolder;
-  font-family: 'Trebuchet MS';
+  font-family: 'Inter', sans-serif !important;
 }
 .navbar-light{
   background-color:lightsteelblue !important;
