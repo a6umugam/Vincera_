@@ -44,7 +44,7 @@
             <textarea rows="6" class="form-control" id="message"></textarea> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-mail"></span></label>
-                <label class="infoalign">info@vincera.in</label>
+                <label class="infoalign">rajesh@vincera.in</label>
             </div>
           </div>
           <div class="form-group wow fadeInUp">
@@ -52,7 +52,7 @@
             <textarea rows="6" class="form-control" id="message"></textarea> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-call"></span></label>
-                <label class="infoalign">022-24112108, +91 91370 21596</label>
+                <label class="infoalign">+91 95516 22575</label>
             </div>
           </div>
 

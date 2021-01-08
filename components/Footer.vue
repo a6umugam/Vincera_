@@ -37,7 +37,7 @@
           <a href="https://twitter.com/vincera" class="fg-white"><span class="mai-logo-twitter"></span></a>
           <a href="https://www.instagram.com/vincera_sports/" class="fg-white"><span class="mai-logo-instagram"></span></a>
           <!-- <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a> -->
-          <a href="info@striders.in" class="fg-white"><span class="mai-mail"></span></a>
+          <a href="rajesh@vincera.in" class="fg-white"><span class="mai-mail"></span></a>
         <!-- <ul class="menu-link"> -->
           <!-- <label class="btn btn-fab btn-primary fg-white"><span class="mai-mail"></span></label>
           <label>info@vincera.com</label> -->
