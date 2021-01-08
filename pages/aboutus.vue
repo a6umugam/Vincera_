@@ -16,6 +16,12 @@
             <h1>"Sit Less. Move More. Play Together."</h1>
         </div>
     </div>
+    <br>
+    <div class="new-only-text" style="margin-top:21px">
+            <h2>Vision and Mission</h2>
+            <p>As children get older, it can be a challenge for them to get adequate daily physical activity. So we believe in inculcating sports from early childhood of a kid. Vincera Sports will become a organization where the spirit of sport is sown as a seed within kids from the younger age, which will make them achieve great heights in the field of sports.</p>
+        </div>
+         <br>
     <!-- <div id="app"> -->
         
     <!-- </div> -->
@@ -30,21 +36,7 @@ import Navbar from '~/components/Navbar.vue'
 // import VueGallerySlideshow from 'vue-gallery-slideshow'
 export default {
   components: { Navbar, Footer },
-  data: {
-    images: [
-      'https://placekitten.com/801/800',
-      'https://placekitten.com/802/800',
-      'https://placekitten.com/803/800',
-      'https://placekitten.com/804/800',
-      'https://placekitten.com/805/800',
-      'https://placekitten.com/806/800',
-      'https://placekitten.com/807/800',
-      'https://placekitten.com/808/800',
-      'https://placekitten.com/809/800',
-      'https://placekitten.com/810/800'
-    ],
-    index: null
-  }
+
 
 }
 </script>

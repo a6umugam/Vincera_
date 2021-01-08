@@ -6,27 +6,14 @@
     </div> -->
     <Navbar/>
     <div class="container new-container bg-image">
-      <br>
-        <div class="new-banner">
-            <img src="~/assets/baner.png"/>
+        <div class="new-only-text-nobg">
+        <!-- <div class="new-only-text-nobg bg-image"> -->
+            <h2>Events Organized</h2>
+            <!-- <h6>Kids Athletic  Meet</h6>
+            <p>Our first  event  kids athletic meet  2019  was  successfully conducted  on  August 25th 2019  at Jawharlal  Nehru  Stadium  for kids  from  UKG TO  VII  STD. 2 5+  schools participated .  No of  students  participated  1200+  & FOTT  FALL of 2500+</p> -->
+            <!-- <p>GAGNER SOCIAL  MARATHON 2020 (Run for  old age home &  Special children) Our second  event   gagner  social Marathon  2020  was  conducted  on  2 nd February,2020  at  Elliot’s Beach  Besant  Nagar.  This marathon  was conducted  to support  old  age  home  & Special children. We had more than 900 participants and  foot  fall  of 1800+</p> -->
+            <Eventsorganized/>
         </div>
-        
-        <div class="new-only-text" style="margin-top:21px">
-            <h2>Vision and Mission</h2>
-            <p>As children get older, it can be a challenge for them to get adequate daily physical activity. So we believe in inculcating sports from early childhood of a kid. Vincera Sports will become a organization where the spirit of sport is sown as a seed within kids from the younger age, which will make them achieve great heights in the field of sports.</p>
-            <h1>"Sit Less. Move More. Play Together."</h1>
-        </div>
-
-        <div class="new-image-text">
-            <h2>Gallery</h2>
-            <Gallery/>
-        </div>
-
-        <div class="new-only-text">
-            <h2>Clients</h2>
-            <Clients/>
-        </div>
-        <br>
 
     </div>
     <div>
@@ -66,9 +53,7 @@ export default {
     padding: 50px 100px;
     border-radius: 21px;
     /* background-color: #ffcc00; */
-    background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
+    background-color: lightsteelblue;
 }
 .new-only-text-nobg{
     display: flex;
@@ -91,14 +76,14 @@ h2, h6{
     /* border-bottom: 3px solid black; */
 }
 .bg-image{
-    /* background-image: url('../assets/img/pattern_1.svg'); */
+    background-image: url('../assets/img/pattern_1.svg');
     background-color: white;
 }
 
 .new-only-text h1{
     text-align: center;
     /* background-color: peru; */
-    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+    background-color: steelblue;
     border-radius: 7px;
     padding: 8px;
     color: white;
@@ -136,7 +121,7 @@ h2, h6{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border-radius: 21px;
+    /* border-radius: 21px; */
     max-height: 500px;
 }
 .new-banner img{

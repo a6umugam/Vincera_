@@ -15,7 +15,7 @@
           <div class="form-group wow fadeInUp">
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></label>
-                <a  class="infoalign" href="https://www.facebook.com/stridersmiles.001">facebook.com/stridersmiles</a>
+                <a  class="infoalign" href="https://www.facebook.com/vincera.sports/">facebook.com/vincera.sports</a>
             </div>
             <!-- <label for="name" class="fw-medium fg-grey">Fullname</label>
             <input type="text" class="form-control" id="name"> -->
@@ -26,7 +26,7 @@
             <input type="text" class="form-control" id="email"> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></label>
-                <a class="infoalign" href="https://twitter.com/StridersIn">twitter.com/StridersIn</a>
+                <a class="infoalign" href="https://twitter.com/vincera">twitter.com/vincera</a>
             </div>
           </div>
 
@@ -35,23 +35,16 @@
             <textarea rows="6" class="form-control" id="message"></textarea> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></label>
-                <a class="infoalign" href="https://www.instagram.com/stridersmiles/">instagram.com/stridersmiles</a>
+                <a class="infoalign" href="https://www.instagram.com/vincera_sports/">instagram.com/vincera_sports</a>
             </div>
           </div>
-          <div class="form-group wow fadeInUp">
-            <!-- <label for="message" class="fw-medium fg-grey">Message</label>
-            <textarea rows="6" class="form-control" id="message"></textarea> -->
-            <div class="mt-4">
-                <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-flickr"></span></label>
-                <a class="infoalign" href="https://www.flickr.com/photos/stridersmiles/">flickr.com/stridersmiles</a>
-            </div>
-          </div>
+
           <div class="form-group wow fadeInUp">
             <!-- <label for="message" class="fw-medium fg-grey">Message</label>
             <textarea rows="6" class="form-control" id="message"></textarea> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-mail"></span></label>
-                <label class="infoalign">info@striders.in</label>
+                <label class="infoalign">info@vincera.in</label>
             </div>
           </div>
           <div class="form-group wow fadeInUp">

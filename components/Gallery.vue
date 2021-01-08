@@ -115,6 +115,7 @@ export default {
 .column {
   float: left;
   width: 25%;
+  border-radius: 8px;
 }
 
 /* The Modal (background) */

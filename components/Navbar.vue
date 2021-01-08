@@ -9,8 +9,8 @@
  </div> -->
  <div>
    <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">Vincera</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" @click="goto('/')"> <img src="~/assets/logo.png" alt="Logo" width="64"> VINCERA</a>
+  <button class="navbar-toggler" @click="menuActive = !menuActive" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
     <!-- <form class="form-inline my-2 my-lg-0">
@@ -20,52 +20,85 @@
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#" @click="gotoevents()">Events</a>
+                <a class="nav-link"  @click="goto('/events')">Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link"  href="#" @click="gotocontactus()">Contact</a>
+                <a class="nav-link"  @click="goto('/programs')">Training</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" @click="gotoabout()">About</a>
+                <a class="nav-link"   @click="goto('/contactus')">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"   @click="goto('/aboutus')">About</a>
             </li>
         </ul>
     </div>
 </nav>
+
+<div class="menu-mobile" v-if="menuActive">
+            <div>
+                <a    @click="goto('/events')">Events</a>
+            </div>
+            <div >
+                <a   @click="goto('/programs')">Training</a>
+            </div>
+            <div >
+                <a   @click="goto('/contactus')">Contact</a>
+            </div>
+            <div>
+                <a   @click="goto('/aboutus')">About</a>
+            </div>
+</div>
  </div>
 </template>
 
 <script>
 // import Contactus from '~/pages/Contactus.vue';
 export default {
-  data:()=>({
-    activeItem: 0
-  }),
-  methods:{
-    gotocontactus(){
-      this.$router.push('/Contactus');
-    },
-    gotoabout(){
-      this.$router.push('/aboutus');
-    },
-    gotoevents(){
-      this.$router.push('/new');
+  data(){
+    return{
+      menuActive: false
     }
+  },
+  methods:{
+    goto(parm){
+      this.$router.push(parm);
+    },
   }
 }
 </script>
 <style>
+.menu-mobile{
+        display: none;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 200px;
+    font-weight: bolder;
+}
+
+.nav-mobile div{
+  margin-top: 4px;
+  cursor: pointer;
+  }
 .navbar-brand{
-  font-size: 30px;
-  font-weight: bolder;
-  font-family: 'Inter', sans-serif !important;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 .navbar-light{
-  background-color:lightsteelblue !important;
+  display: flex;
+  background-color:white !important;
+   box-shadow: 0 8px 6px -6px #999;
+   height: 85px;
   /* background-color: white !important; */
 }
 .nav-item{
   padding: 0 15px !important;
   margin-bottom: 0px !important;
+  cursor: pointer;
   /* color: white !important; */
 }
 /* ul {
@@ -113,9 +146,16 @@ li a {
 li a:hover {
   /* color: rgb(141, 141, 141); */
   /* text-decoration: none; */
-  border-bottom:  3px solid rgb(0, 0, 0);
+  border-bottom:  3px solid rgb(255, 0, 0);
+  transition: 0.3s;
 }
 /* li{
   padding: 0px 12px;
 } */
+
+@media only screen and (max-width: 800px) {
+  .menu-mobile{
+    display: flex
+  }
+  }
 </style>
