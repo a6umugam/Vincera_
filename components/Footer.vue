@@ -29,13 +29,13 @@
         <!-- <img src="~/assets/favicon-light.png" alt="" width="40"> -->
         <label class="navbar-brand">Vincera</label>
         <!-- Please don't remove or modify the credits below -->
-        <p class="d-inline-block ml-2">Copyright &copy;<a href="https://cgkode.com/" class="fg-white fw-medium">Vincera</a>All rights reserved</p>
+        <p class="d-inline-block ml-2">Copyright &copy;<a href="https://vincera.in/" class="fg-white fw-medium">Vincera</a>All rights reserved</p>
       </div>
       <div class="col-md">
         <!-- <h5 class="mb-3">Contact</h5> -->
-          <a href="https://www.facebook.com/stridersmiles.001" class="fg-white"><span class="mai-logo-facebook"></span></a>
-          <a href="https://twitter.com/StridersIn" class="fg-white"><span class="mai-logo-twitter"></span></a>
-          <a href="https://www.instagram.com/stridersmiles/" class="fg-white"><span class="mai-logo-instagram"></span></a>
+          <a href="https://www.facebook.com/vincera.sports/" class="fg-white"><span class="mai-logo-facebook"></span></a>
+          <a href="https://twitter.com/vincera" class="fg-white"><span class="mai-logo-twitter"></span></a>
+          <a href="https://www.instagram.com/vincera_sports/" class="fg-white"><span class="mai-logo-instagram"></span></a>
           <!-- <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a> -->
           <a href="info@striders.in" class="fg-white"><span class="mai-mail"></span></a>
         <!-- <ul class="menu-link"> -->
