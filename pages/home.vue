@@ -417,9 +417,9 @@ h3{
     padding-bottom: 0vw !important;
     margin-bottom: 0.8vw !important;
 }
-.bg-image{
+/* .bg-image{
     background-image: url('../assets/img/pattern_1.svg');
-}
+} */
 .page-section {
     display: flex;
     justify-content: center;

@@ -6,7 +6,7 @@
     </div> -->
     <Navbar/>
     <div class="container new-container bg-image">
-        <div class="new-only-text-nobg">
+        <div class="new-only-text-nobg" style="padding-top: 150px;">
         <!-- <div class="new-only-text-nobg bg-image"> -->
             <h2>Events Organized</h2>
             <!-- <h6>Kids Athletic  Meet</h6>
@@ -75,10 +75,10 @@ h2, h6{
     font-weight: bolder;
     /* border-bottom: 3px solid black; */
 }
-.bg-image{
+/* .bg-image{
     background-image: url('../assets/img/pattern_1.svg');
     background-color: white;
-}
+} */
 
 .new-only-text h1{
     text-align: center;

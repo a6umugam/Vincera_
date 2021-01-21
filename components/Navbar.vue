@@ -9,7 +9,7 @@
  </div> -->
  <div>
    <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" @click="goto('/')"> <img src="~/assets/logo.png" alt="Logo" width="64"> VINCERA</a>
+  <a class="navbar-brand" @click="goto('/')"> <img src="~/assets/logo.png" alt="Logo" width="10%"> Vincera</a>
   <button class="navbar-toggler" @click="menuActive = !menuActive" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,6 +19,9 @@
     </form> -->
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link"  @click="goto('/')">Home</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link"  @click="goto('/events')">Events</a>
             </li>
@@ -36,6 +39,9 @@
 </nav>
 
 <div class="menu-mobile" v-if="menuActive">
+            <div>
+                <a    @click="goto('/')">Home</a>
+            </div>
             <div>
                 <a    @click="goto('/events')">Events</a>
             </div>
@@ -82,7 +88,7 @@ export default {
   margin-top: 4px;
   cursor: pointer;
   }
-.navbar-brand{
+/* .navbar-brand{
       display: flex;
     justify-content: center;
     align-items: center;
@@ -93,13 +99,44 @@ export default {
   background-color:white !important;
    box-shadow: 0 8px 6px -6px #999;
    height: 85px;
-  /* background-color: white !important; */
 }
 .nav-item{
   padding: 0 15px !important;
   margin-bottom: 0px !important;
   cursor: pointer;
+} */
   /* color: white !important; */
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bolder;
+  /* font-family: 'Inter', sans-serif !important; */
+  background: linear-gradient(to right, red, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:transparent;
+}
+.navbar-light{
+  /* background-color:lightsteelblue !important; */
+  background-color: black !important;
+}
+.nav-item{
+  padding: 0 15px !important;
+  margin-bottom: 0px !important;
+  /* color: white !important; */
+}
+.nav-item a{
+  color: white !important;
+}
+.navbar{
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+}
+
+li a:hover {
+  border-bottom:  3px solid rgb(160, 17, 64);
 }
 /* ul {
   list-style-type: none;
@@ -143,12 +180,12 @@ li a {
 } */
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+/* li a:hover { */
   /* color: rgb(141, 141, 141); */
   /* text-decoration: none; */
-  border-bottom:  3px solid rgb(255, 0, 0);
+  /* border-bottom:  3px solid rgb(255, 0, 0);
   transition: 0.3s;
-}
+} */
 /* li{
   padding: 0px 12px;
 } */

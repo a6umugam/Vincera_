@@ -37,4 +37,18 @@ export default {
 .infobar p{
     margin-bottom: 0px;
 }
+.main{
+  background-image: url('../assets/img/Rainbow-Vortex.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: aliceblue;
+  /* position: fixed; 
+  top: 0; 
+  left: 0;  */
+
+  /* Preserve aspet ratio */
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+}
 </style>

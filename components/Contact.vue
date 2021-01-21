@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-7 py-3 mb-5 mb-lg-0">
         <div class="img-place w-lg-75 wow zoomIn">
-          <img src="~/assets/img/contact_us3.svg" alt="">
+          <img src="~/assets/img/contact_us6.svg" alt="">
         </div>
       </div>
       <div class="col-lg-5 py-3">
@@ -15,7 +15,7 @@
           <div class="form-group wow fadeInUp">
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-facebook"></span></label>
-                <a  class="infoalign" href="https://www.facebook.com/vincera.sports/">facebook.com/vincera.sports</a>
+                <a  class="infoalign" href="https://www.facebook.com/stridersmiles.001">facebook.com/stridersmiles</a>
             </div>
             <!-- <label for="name" class="fw-medium fg-grey">Fullname</label>
             <input type="text" class="form-control" id="name"> -->
@@ -26,7 +26,7 @@
             <input type="text" class="form-control" id="email"> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-twitter"></span></label>
-                <a class="infoalign" href="https://twitter.com/vincera">twitter.com/vincera</a>
+                <a class="infoalign" href="https://twitter.com/StridersIn">twitter.com/StridersIn</a>
             </div>
           </div>
 
@@ -35,16 +35,23 @@
             <textarea rows="6" class="form-control" id="message"></textarea> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-instagram"></span></label>
-                <a class="infoalign" href="https://www.instagram.com/vincera_sports/">instagram.com/vincera_sports</a>
+                <a class="infoalign" href="https://www.instagram.com/stridersmiles/">instagram.com/stridersmiles</a>
             </div>
           </div>
-
+          <div class="form-group wow fadeInUp">
+            <!-- <label for="message" class="fw-medium fg-grey">Message</label>
+            <textarea rows="6" class="form-control" id="message"></textarea> -->
+            <div class="mt-4">
+                <label class="btn btn-fab btn-primary fg-white"><span class="mai-logo-flickr"></span></label>
+                <a class="infoalign" href="https://www.flickr.com/photos/stridersmiles/">flickr.com/stridersmiles</a>
+            </div>
+          </div>
           <div class="form-group wow fadeInUp">
             <!-- <label for="message" class="fw-medium fg-grey">Message</label>
             <textarea rows="6" class="form-control" id="message"></textarea> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-mail"></span></label>
-                <label class="infoalign">rajesh@vincera.in</label>
+                <label class="infoalign">info@striders.in</label>
             </div>
           </div>
           <div class="form-group wow fadeInUp">
@@ -52,7 +59,7 @@
             <textarea rows="6" class="form-control" id="message"></textarea> -->
             <div class="mt-4">
                 <label class="btn btn-fab btn-primary fg-white"><span class="mai-call"></span></label>
-                <label class="infoalign">+91 95516 22575</label>
+                <label class="infoalign">022-24112108, +91 91370 21596</label>
             </div>
           </div>
 
@@ -81,5 +88,14 @@ export default {
     font-weight: bolder;
     text-decoration: none;
     color: black;
+}
+.page-section .container{
+  background-color: aliceblue;
+}
+.btn-primary{
+  background: linear-gradient(to right, red, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:transparent;
 }
 </style>

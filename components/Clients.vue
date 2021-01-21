@@ -1,19 +1,19 @@
 <template>
     <div>
         <div class="row">
-            <div class="column">
+            <div class="col">
                 <img src="~/assets/img/clients/tata_consultancy_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
-            <div class="column">
+            <div class="col">
                 <img src="~/assets/img/clients/edelweiss_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
-            <div class="column">
+            <div class="col">
                 <img src="~/assets/img/clients/evonik_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
-            <div class="column">
+            <div class="col">
                 <img src="~/assets/img/clients/ghatkopar_jolly_jimkhana.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
-            <div class="column">
+            <div class="col">
                 <img src="~/assets/img/clients/NSC_logo.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
         </div>
@@ -33,6 +33,11 @@ export default {
 .row{
     padding-top: 30px;
 }
+.column{
+  display: block;
+  align-items: center;
+  width: auto;
+}
 
 .row:after {
   content: "";
@@ -41,18 +46,13 @@ export default {
 }
 .label{
     margin: auto;
-    width: 10%;
+    /* width: 10%; */
     align-items: center;
     /* display: block; */
     font-size: 30px;
     /* line-height: 150%; */
     border-bottom: 3px solid black;
     padding: 10px;
-}
-
-.column {
-  float: left;
-  width: 25%;
 }
 
 /* The Modal (background) */

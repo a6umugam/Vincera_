@@ -1,23 +1,23 @@
 <template>
     <div>
         <div class="row">
-            <div class="col-lg-6 trpg">
+            <div class="col-lg-8 trpg">
                 <h6 class='mb-4'>FriskyKidz Program for Pre-School and Primary School</h6>
                 <div class='mb-8'>
                     <p>Vincera programme is structured with lesson plans for all kids from KG to 5th standard with an aim to train the kids with best physical activities according to their age. We asses each kid in our Frisky kids program & we will also support the sports day event, after school program will also be conducted in the premises.</p>
                     <p>Assessment will be conducted once in six months (Standing broad jump, Sit & Reach, Endurance test, Speed test, Overhead throw).</p>
                 </div>
             </div>
-            <div class="col-lg-4 trpg">
+            <div class="col trpg">
                 <img src="~/assets/img/kids2.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 trpg">
+            <div class="col trpg">
                 <img src="~/assets/img/kids5.jpg" style="width:100%" class="hover-shadow cursor">
                 <img src="~/assets/img/kids6.jpg" style="width:100%" class="hover-shadow cursor">
             </div>
-            <div class="col-lg-6 trpg">
+            <div class="col-lg-8 trpg">
                 <h6 class='mb-4'>CORPORATE TRAINING</h6>
                 <div class='mb-8'>
                     <p>Prolonged sitting is independently associated with negative health outcomes and mortality. But the health effects of prolonged sitting were most pronounced in people who never exercise or do so only occasionally.</p>

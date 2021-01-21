@@ -243,10 +243,10 @@ h2, h6{
     font-weight: bolder;
     /* border-bottom: 3px solid black; */
 }
-.bg-image{
+/* .bg-image{
     background-image: url('../assets/img/pattern_1.svg');
     background-color: white;
-}
+} */
 
 .new-only-text h1{
     text-align: center;

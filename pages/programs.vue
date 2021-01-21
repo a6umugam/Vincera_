@@ -5,18 +5,17 @@
         <p>50% off for new customers</p>
     </div> -->
     <Navbar/>
-    <div class="container new-container bg-image">
-        
-        
-       
-        <div class="new-only-text-nobg" style="padding: 50px 0px;">
+    <div class="container new-container bg-image">       
+        <div class="new-only-text-nobg" style="padding-top: 150px;">
         <!-- <div class="new-only-text-nobg bg-image"> -->
             <h2>Training Programs</h2>
             <Trainingprograms/>
         </div>
         <div class="new-only-text">
+          <div class="subonlytext">
             <h2>Complimentary Trails</h2>
             <p>We provide free training sessions for 1-2 weeks (comprising 3 sessions) as complimentary trials. You can avail all the free sessions to become acquainted with the training routines, the nature of training and our training process. Based on the complimentary trials, you can continue your training with our group.</p>
+          </div>
         </div>
         <div class="new-only-text-nobg">
         <!-- <div class="new-only-text-nobg bg-image"> -->
@@ -24,9 +23,11 @@
             <Trainingexer/>
         </div>
         <div class="new-only-text">
+          <div class="subonlytext">
             <h2>Marathon Trials</h2>
             <p>We train enthusiasts for half marathon and full marathon. We train in groups outdoors in natural surroundings, providing you the opportunity to connect with nature and to meet and associate with like-minded people.</p>
             <p>Marathon running is typically accompanied by a specific training program. Runners may use a program that calls for four to six workouts per week, but there are times when you can only run three days per week. Running only three days per week has several benefits, including preventing injuries and overtraining, along with providing extra time for strength training workouts or recreational sports. Even though your schedule limits your training to three days per week, you can still cross the finish line of your next marathon.</p>
+          </div>
         </div>
         <div class="new-only-text-nobg">
         <!-- <div class="new-only-text-nobg bg-image"> -->
@@ -34,8 +35,10 @@
             <Trainingmethod/>
         </div>
         <div class="new-only-text">
+          <div class="subonlytext">
             <h2>Beep Test</h2>
             <p>The beep test is a physical fitness test of your aerobic fitness. To significantly improve your beep test score, you need to do specific and general aerobic type training. Although the aerobic energy system is primarily being tested, as in most activities it is not the sole energy source, and the anaerobic system (or speed endurance / lactate tolerance) also plays a part in the beep test performance as the speed increases and effort is required to slow down and accelerate away from each turn.</p>
+          </div>
         </div>
         <div class="new-only-text-nobg">
         <!-- <div class="new-only-text-nobg bg-image"> -->
@@ -43,9 +46,11 @@
             <Kidstraining/>
         </div>
         <div class="new-only-text">
+          <div class="subonlytext">
             <h2>Fitness Program in your Resisdential Area</h2>
             <p>Vincera Sports comes at your doorstep. We conduct Fitness and wellness program for adults and kids. We give training for marathon, athletes, Basket ball and weight loss. We organize Sports day events and also offer Beach and Hill training.</p>
             <Residentareatraining/>
+          </div>
         </div>
 
     </div>
@@ -78,16 +83,47 @@ export default {
 <style>
 @import url('../assets/css/maicons.css');
 @import url('../assets/css/mobster.css');
+.main{
+  background-image: url('../assets/img/Rainbow-Vortex.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: aliceblue;
+  /* position: fixed; 
+  top: 0; 
+  left: 0;  */
+
+  /* Preserve aspet ratio */
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+}
 
 .new-only-text{
-    display: flex;
+    /* display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 100px; */
     border-radius: 21px;
-    /* background-color: #ffcc00; */
-    background-color: lightsteelblue;
+    /* background-color: #000000; */
+    /* background-color: lightsteelblue; */
+    color: rgb(255, 255, 255);
+    /* max-width: 250px; */
+    /* padding: 1rem; */
+    /* position: relative; */
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+}
+.subonlytext{
+  background: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  padding: 2rem;
+  border-radius: 21px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
 }
 .new-only-text-nobg{
     display: flex;
@@ -95,6 +131,7 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 50px 100px;
+    /* background: linear-gradient(to right, red, purple); */
 }
 .new-image-text{
     display: flex;
@@ -109,21 +146,22 @@ h2, h6{
     font-weight: bolder;
     /* border-bottom: 3px solid black; */
 }
-.bg-image{
-    background-image: url('../assets/img/pattern_1.svg');
-    background-color: white;
-}
+/* .bg-image{ */
+    /* background-image: url('../assets/img/pattern_1.svg'); */
+    /* background-image: url('../assets/img/Rainbow-Vortex.svg'); */
+    /* background-color: white; */
+/* } */
 
 .new-only-text h1{
     text-align: center;
-    /* background-color: peru; */
-    background-color: steelblue;
+    background-color:crimson;
+    /* background-color: steelblue; */
     border-radius: 7px;
     padding: 8px;
     color: white;
     font-family: fantasy;
+    /* max-width: 80%; */
 }
-
 .new-container{
     /* display: flex; */
     flex-flow: column;
@@ -171,7 +209,7 @@ h2, h6{
         display: none;
         /* display: inline; */
     }
-    .new-only-text{
+    .subonlytext{
     padding: 5px 50px;
     }
     .new-only-text-nobg{
