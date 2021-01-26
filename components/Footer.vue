@@ -101,15 +101,15 @@ export default {
 @import url('../assets/css/maicons.css');
 @import url('../assets/css/mobster.css');
 .row .col-md, .nav{
-  justify-content: center;
-  text-align: center;
+  justify-content: center !important;
+  text-align: center !important;
 }
 .row .col-md a{
-  padding: 12px;
+  padding: 12px !important;
 }
 .navbar-brand{
-  font-size: 30px;
-  font-weight: bolder;
-  font-family: 'Trebuchet MS';
+  font-size: 30px !important;
+  font-weight: bolder !important;
+  font-family: 'Trebuchet MS' !important;
 }
 </style>

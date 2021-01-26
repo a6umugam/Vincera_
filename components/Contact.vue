@@ -90,7 +90,7 @@ export default {
     color: black;
 }
 .page-section .container{
-  background-color: aliceblue;
+  background-color: aliceblue !important;
 }
 .btn-primary{
   background: linear-gradient(to right, red, purple);

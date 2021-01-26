@@ -214,14 +214,20 @@ export default {
 @import url('../assets/css/mobster.css');
 
 .new-only-text{
-    display: flex;
+    /* display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 100px; */
     border-radius: 21px;
-    /* background-color: #ffcc00; */
-    background-color: lightsteelblue;
+    /* background-color: #000000; */
+    /* background-color: lightsteelblue; */
+    color: rgb(255, 255, 255);
+    /* max-width: 250px; */
+    /* padding: 1rem; */
+    /* position: relative; */
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
 }
 .new-only-text-nobg{
     display: flex;
@@ -229,6 +235,17 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 50px 100px;
+}
+.subonlytext{
+  background: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  padding: 2rem;
+  border-radius: 21px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
 }
 .new-image-text{
     display: flex;
@@ -250,14 +267,14 @@ h2, h6{
 
 .new-only-text h1{
     text-align: center;
-    /* background-color: peru; */
-    background-color: steelblue;
+    background-color:crimson;
+    /* background-color: steelblue; */
     border-radius: 7px;
     padding: 8px;
     color: white;
     font-family: fantasy;
+    /* max-width: 80%; */
 }
-
 .new-container{
     display: flex;
     flex-flow: column;

@@ -8,16 +8,30 @@
     </ul>
  </div> -->
  <div>
-   <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" @click="goto('/')"> <img src="~/assets/logo.png" alt="Logo" width="10%"> Vincera</a>
-  <button class="navbar-toggler" @click="menuActive = !menuActive" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <div class="navbar navbar-expand-lg navbar-light topnav" id="myTopnav">
+      <a class="navbar-brand" @click="goto('/')"> <img src="~/assets/logo.png" alt="Logo" width="10%"> Vincera</a>
+      <a class="nav-link"  @click="goto('/')">Home</a>
+      <a class="nav-link"  @click="goto('/events')">Events</a>
+      <a class="nav-link"  @click="goto('/programs')">Training</a>
+      <a class="nav-link"   @click="goto('/contactus')">Contact</a>
+      <a class="nav-link"   @click="goto('/aboutus')">About</a>
+      <a href="javascript:void(0);" class="icon" @click="myFunction()">
+        <i class="mai-menu"></i>
+        <!-- <i class="fa fa-bars"></i> -->
+      </a>
+    </div>
+   <!-- <nav class="navbar navbar-expand-lg navbar-light topnav" id="myTopnav">
+  <a class="navbar-brand" @click="goto('/')"> <img src="~/assets/logo.png" alt="Logo" width="10%"> Vincera</a> -->
+  <!-- *********************************************************************************************** -->
+  <!-- <button class="navbar-toggler" @click="menuActive = !menuActive" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
+  </button> -->
     <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form> -->
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <!-- ****************************************************************************************** -->
+    <!-- <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link"  @click="goto('/')">Home</a>
@@ -36,9 +50,12 @@
             </li>
         </ul>
     </div>
-</nav>
+    <a class="icon" @click="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> -->
+<!-- </nav> -->
 
-<div class="menu-mobile" v-if="menuActive">
+<!-- <div class="menu-mobile" v-if="menuActive">
             <div>
                 <a    @click="goto('/')">Home</a>
             </div>
@@ -54,7 +71,7 @@
             <div>
                 <a   @click="goto('/aboutus')">About</a>
             </div>
-</div>
+</div> -->
  </div>
 </template>
 
@@ -70,11 +87,123 @@ export default {
     goto(parm){
       this.$router.push(parm);
     },
+    myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        document.getElementById("myTopnav").style.height = "auto";
+      } else {
+        x.className = "topnav";
+      }
+    }
   }
 }
 </script>
 <style>
-.menu-mobile{
+@import url('../assets/css/maicons.css');
+/* @import url('../assets/css/fontawesome.css'); */
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"'); */
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bolder;
+  /* font-family: 'Inter', sans-serif !important; */
+  background: linear-gradient(to right, red, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:transparent;
+}
+.navbar-light{
+  /* background-color:lightsteelblue !important; */
+  background-color: black !important;
+}
+/* .nav-link{
+  float: right;
+  font-size: 1.05vw;
+  border: none;
+  padding: 0 15px !important;
+  margin-bottom: 0px !important;
+  color: white !important;
+}
+.link :hover{
+  color: rgb(160,17, 64);
+}
+
+.navbar{
+  overflow: hidden; */
+  /* position: fixed; Set the navbar to fixed position */
+  /* top: 0; Position the navbar at the top of the page */
+  /* width: 100%; Full width */
+  /* z-index: 10; */
+/* } */
+
+/* .nav-link :hover { */
+  /* background-color: rgb(160, 17, 64); */
+  /* border-bottom:  3px solid rgb(160, 17, 64); */
+/* } */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 80px;
+}
+
+.topnav a {
+  /* float: left; */
+  display: block;
+  color: #f2f2f2;
+  /* text-align: center; */
+  padding: 14px 16px;
+  text-decoration: none;
+  /* font-size: 17px; */
+}
+.topnav .nav-link{
+  float: right;
+}
+
+.topnav .nav-link:hover {
+  /* background-color: #ddd; */
+  color: white;
+  border-bottom:  3px solid rgb(160, 17, 64);
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  /* .topnav {position: relative;} */
+  .topnav a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    display: block;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* .menu-mobile{
         display: none;
     flex-flow: column;
     justify-content: space-evenly;
@@ -87,7 +216,7 @@ export default {
 .nav-mobile div{
   margin-top: 4px;
   cursor: pointer;
-  }
+  } */
 /* .navbar-brand{
       display: flex;
     justify-content: center;
@@ -106,38 +235,7 @@ export default {
   cursor: pointer;
 } */
   /* color: white !important; */
-.navbar-brand{
-  font-size: 30px;
-  font-weight: bolder;
-  /* font-family: 'Inter', sans-serif !important; */
-  background: linear-gradient(to right, red, purple);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color:transparent;
-}
-.navbar-light{
-  /* background-color:lightsteelblue !important; */
-  background-color: black !important;
-}
-.nav-item{
-  padding: 0 15px !important;
-  margin-bottom: 0px !important;
-  /* color: white !important; */
-}
-.nav-item a{
-  color: white !important;
-}
-.navbar{
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  z-index: 10;
-}
 
-li a:hover {
-  border-bottom:  3px solid rgb(160, 17, 64);
-}
 /* ul {
   list-style-type: none;
   overflow: hidden;
@@ -190,9 +288,9 @@ li a {
   padding: 0px 12px;
 } */
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .menu-mobile{
     display: flex
   }
-  }
+  } */
 </style>
