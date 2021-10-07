@@ -160,6 +160,7 @@ export default {
 }
 .topnav .nav-link{
   float: right;
+  cursor: pointer;
 }
 
 .topnav .nav-link:hover {
