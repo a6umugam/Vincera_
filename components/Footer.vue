@@ -5,7 +5,7 @@
       <div class="col-md">
         <!-- <h5 class="mb-3">Location</h5> -->
         <label class="fg-white"><span class="mai-location"></span></label>
-        <label>Mumbai, India.</label>
+        <label>Chennai, India.</label>
       </div>
       <!-- <div class="col-sm-6 col-lg-2 py-3">
         <h5 class="mb-3">Pages</h5>
@@ -37,7 +37,7 @@
           <a href="https://twitter.com/vincera" class="fg-white"><span class="mai-logo-twitter"></span></a>
           <a href="https://www.instagram.com/vincera_sports/" class="fg-white"><span class="mai-logo-instagram"></span></a>
           <!-- <a href="#" class="btn btn-fab btn-primary fg-white"><span class="mai-logo-google"></span></a> -->
-          <a href="rajesh@vincera.in" class="fg-white"><span class="mai-mail"></span></a>
+          <a href="mailto:rajesh@vincera.in" class="fg-white"><span class="mai-mail"></span></a>
         <!-- <ul class="menu-link"> -->
           <!-- <label class="btn btn-fab btn-primary fg-white"><span class="mai-mail"></span></label>
           <label>info@vincera.com</label> -->

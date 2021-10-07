@@ -131,7 +131,7 @@ export default {
 }
 
 img {
-  margin-bottom: -4px;
+  margin-bottom: 10px;
 }
 
 .caption-container {

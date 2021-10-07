@@ -11,10 +11,23 @@
    <div class="navbar navbar-expand-lg navbar-light topnav" id="myTopnav">
       <a class="navbar-brand" @click="goto('/')"> <img src="~/assets/logo.png" alt="Logo" width="10%"> Vincera</a>
       <a class="nav-link"  @click="goto('/')">Home</a>
+      <a class="nav-link"   @click="goto('/aboutus')">About Us</a>
+      <a class="dropdown nav-link">
+        <span>Trainings Offered</span>
+        <div class="dropdown-content">
+        <a class="nav-link" @click="goto('/training/school')" >In-School Program</a>
+        <a class="nav-link" @click="goto('/training/corporate')" >Corporate Training</a>
+        <a class="nav-link" @click="goto('/training/fitness')" >Fitness Training</a>
+        <a class="nav-link" @click="goto('/training/marathon')" >Marathon Training</a>
+        <a class="nav-link" @click="goto('/training/kids')" >Kids Training</a>
+        <a class="nav-link" @click="goto('/training/residential')" >Residential Training</a>
+        </div>
+      </a>
       <a class="nav-link"  @click="goto('/events')">Events</a>
-      <a class="nav-link"  @click="goto('/programs')">Training</a>
-      <a class="nav-link"   @click="goto('/contactus')">Contact</a>
-      <a class="nav-link"   @click="goto('/aboutus')">About</a>
+      <a class="nav-link"   @click="goto('/contactus')">Contact Us</a>
+      
+    
+
       <a href="javascript:void(0);" class="icon" @click="myFunction()">
         <i class="mai-menu"></i>
         <!-- <i class="fa fa-bars"></i> -->
@@ -104,6 +117,7 @@ export default {
 /* @import url('../assets/css/fontawesome.css'); */
 /* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"'); */
 .navbar-brand{
+  cursor: pointer;
   font-size: 30px;
   font-weight: bolder;
   /* font-family: 'Inter', sans-serif !important; */
@@ -140,8 +154,9 @@ export default {
   /* background-color: rgb(160, 17, 64); */
   /* border-bottom:  3px solid rgb(160, 17, 64); */
 /* } */
+
 .topnav {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #333;
   position: fixed;
   width: 100%;
@@ -204,6 +219,28 @@ export default {
     text-align: left;
   }
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  background-color: #333;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-flow: column;
+}
+
 /* .menu-mobile{
         display: none;
     flex-flow: column;

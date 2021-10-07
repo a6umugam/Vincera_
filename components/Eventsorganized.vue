@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="row">
-            <h6>Kids Athletic  Meet</h6>
-            <p>Our first  event  kids athletic meet  2019  was  successfully conducted  on  August 25th 2019  at Jawharlal  Nehru  Stadium  for kids  from  UKG TO  VII  STD. 2 5+  schools participated .  No of  students  participated  1200+  & FOTT  FALL of 2500+</p>
+            <h4>Kids Athletic  Meet</h4>
+            <p>Our first  event  kids athletic meet  2019  was  successfully conducted  on  August 25th 2019  at Jawharlal  Nehru  Stadium  for kids  from  UKG TO  VII  STD. 2 5+  schools participated .  No of  students  participated  1200+  & footfall of 2500+</p>
         </div>
         <div class="row">
             <div class="column">
@@ -16,7 +16,8 @@
             </div>
         </div>
         <div class="row">
-            <p>GAGNER SOCIAL  MARATHON 2020 (Run for  old age home &  Special children) Our second  event   gagner  social Marathon  2020  was  conducted  on  2 nd February,2020  at  Elliot’s Beach  Besant  Nagar.  This marathon  was conducted  to support  old  age  home  & Special children. We had more than 900 participants and  foot  fall  of 1800+</p>
+          <h4>GAGNER SOCIAL  MARATHON 2020 (Run for  old age home &  Special children)</h4>
+            <p>Our second  event   gagner  social Marathon  2020  was  conducted  on  2 nd February,2020  at  Elliot’s Beach  Besant  Nagar.  This marathon  was conducted  to support  old  age  home  & Special children. We had more than 900 participants and  foot  fall  of 1800+</p>
         </div>
         <div class="row">
             <div class="column">
